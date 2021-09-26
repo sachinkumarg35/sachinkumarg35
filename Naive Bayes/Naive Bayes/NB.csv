@@ -1,0 +1,39 @@
+﻿,,Extend,,Transfer,,Invoice,,Money,,….,….,
+,Class,YES,NO,YES,NO,YES,NO,YES,NO,,,
+381,Routine Request,250,131,300,81,350,31,30,351,,,
+100,Audit,20,80,10,90,50,50,80,20,,,
+481,Sum,270,211,310,171,400,81,110,371,,,P(A/B)=P(B/A)*P(A)/P(B)
+,,,,,,,,,,,,
+,Routine Request,0.656167979,0.343832021,0.787401575,0.212598425,0.918635171,0.081364829,0.078740157,0.921259843,,,P(C/W)=P(W/C)*P(C)/P(W)
+,Audit,0.2,0.8,0.1,0.9,0.5,0.5,0.8,0.2,,,
+,,,,,,,,,,,,P(Audit/Extend)=  P(Extend/Audit)*P(Audit) / P(Extend)
+,,,,,New Request,Invoice is here .. Pl transfer the money.,,,,,,
+,,,,,,,,P(Audit/NR),0.94,93,,
+,Prior Class Probabilities,,,,,,,P(RR/NR),0.06,7.4,,
+,Class ,Probabilities,,Likelyhood,,Probability,,,,,,"P(Rotine Request/Extend)= 
+ P(Extend/Routine Request)*P(Routine Request)) / P(Extend)"
+,RR,0.792099792,,0.015511787,,0.69984532,,,,,,
+,Audit,0.207900208,,0.006652807,,0.30015468,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,P(Audit/Extend ^ Runout^-Invoce^-Audit)=  P(Extend/Audit)*…..P(-Audit/Audit)*P(Audit)/P(Extend)*…P(-Audit),,,,,,,,,,,New Record
+,,,,,,,,,1,,1,Extend the Runout 
+,,,,,,,,,,,,
+,,,,,,,,,2,,2,Extend the timeline
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,Freaquency,,,,,,,,,,,
+,,Invoice,Runtimeout,Checkin,,,,,,,,
+,Records1,1,0,,,,,,,,,
+,Records2,0,1,,,,,,,,,
+,Records3,5,3,,,,,,,,,
+,Records4,,,,,,,,,,,
+,Records5,,,,,,,,,,,
+,Records6,,,,,,,,,,,
